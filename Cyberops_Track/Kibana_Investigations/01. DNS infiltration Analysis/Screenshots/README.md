@@ -1,0 +1,1 @@
+All screenshots taken in order during analysis
