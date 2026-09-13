@@ -31,9 +31,9 @@ The second activity used Kibana to investigate an a DNS exfiltration incident...
 * Logs for example.com were exported in raw format
 * The 
 
-     xxd -r -p "DNS - Queries.csv" > secret.txt 
+               xxd -r -p "DNS - Queries.csv" > secret.txt 
 
-  was used to decide the text in the CSV file
+  was used to decode the text in the CSV file
 
 
 
