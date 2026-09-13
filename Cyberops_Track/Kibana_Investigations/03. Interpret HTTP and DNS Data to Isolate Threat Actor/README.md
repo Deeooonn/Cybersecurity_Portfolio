@@ -11,3 +11,7 @@ The second activity used Kibana to investigate an a DNS exfiltration incident...
 
 * Filtered for http traffic under the Zeek (Bro) Hunting heading.
 
+* Scrolled to view event info of events
+
+* Pivoted to capMe! in the ID field in the event info by clicking on the hyperlinked id
+
