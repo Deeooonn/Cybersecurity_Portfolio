@@ -15,3 +15,6 @@ The second activity used Kibana to investigate an a DNS exfiltration incident...
 
 * Pivoted to capMe! in the ID field in the event info by clicking on the hyperlinked id
 
+* Found the query used in performing SQL injection for authentication bypass
+
+* Found exposed user records
