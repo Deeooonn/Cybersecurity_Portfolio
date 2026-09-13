@@ -1,1 +1,0 @@
-info on setting exact date and steps taken
