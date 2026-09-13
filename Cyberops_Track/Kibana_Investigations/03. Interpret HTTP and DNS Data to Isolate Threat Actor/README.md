@@ -21,4 +21,7 @@ The second activity used Kibana to investigate an a DNS exfiltration incident...
 
 * Found exposed user records
 
+
+
 **Part 2** DNS Exfiltration
+
