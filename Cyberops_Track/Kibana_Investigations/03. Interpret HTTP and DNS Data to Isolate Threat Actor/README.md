@@ -25,3 +25,12 @@ The second activity used Kibana to investigate an a DNS exfiltration incident...
 
 **Part 2** DNS Exfiltration
 
+* Filtered for DNS logs in kibana
+* Scrolled down to view the unusually long subdomains attached to ns.example.com
+* example.com was filtered for then investigated
+* Logs for example.com were exported in raw format
+* The xxd -r -p "DNS - Queries.csv" > secret.txt was used to decide the text in the CSV file
+
+
+
+DNS was used to exfiltrate data about a recent data breach in this case and he threat actor(an insider) passed this data to a server outside the organisation most likely for money. This technique was used because DNS resolution is almost always needed for resolution of domains.
