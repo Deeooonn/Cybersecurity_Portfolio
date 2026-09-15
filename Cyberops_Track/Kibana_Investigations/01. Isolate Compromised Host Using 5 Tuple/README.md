@@ -14,7 +14,7 @@ Security Onion VM was used for this activity
                
               cat /etc/shadow
 
-* 
+* Pivoting to Wireshark by right clicking on alert ID, we could read all packets assembled in the TCP conversation by selecting follow > TCP stream
 
 
 
