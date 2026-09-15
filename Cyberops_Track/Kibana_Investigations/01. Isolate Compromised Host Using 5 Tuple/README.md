@@ -8,8 +8,13 @@ Security Onion VM was used for this activity
  Kibana was pivoted to for interactive dashboard and visualization
 
 * Alert was reviewed in sguil to indicate that attacker gained root access
+* "Show packet data" and "show rule" boxes were checked to show the alert in more detail
+* ID of the alert was right clicked to view transcript that displayed commands executed on the
+  target by the attacker including the below to view passwords.
+               
+              cat /etc/shadow
 
-
+* 
 
 
 
