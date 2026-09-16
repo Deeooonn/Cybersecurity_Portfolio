@@ -29,7 +29,7 @@ The second activity used Kibana to investigate an a DNS exfiltration incident...
 * Scrolled down to view the unusually long subdomains attached to ns.example.com
 * example.com was filtered for then investigated
 * Logs for example.com were exported in raw format
-* The 
+* The following in the command line 
 
                xxd -r -p "DNS - Queries.csv" > secret.txt 
 
