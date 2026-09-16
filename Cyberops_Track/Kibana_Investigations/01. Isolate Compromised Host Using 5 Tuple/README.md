@@ -26,9 +26,9 @@ Security Onion VM was used for this activity
 
 **5 tuple usage**
 
-Wireshark and sguil showed and used source and destination addresses and ports
-Kibana used source address but could have used either 
-Wireshark indicated the kind of protocol.
+* Wireshark and sguil showed and used source and destination addresses and ports
+* Kibana used source address but could have used either 
+* Wireshark indicated the kind of protocol.
 
 
 
