@@ -16,6 +16,12 @@ Security Onion VM was used for this activity
 
 * Pivoting to Wireshark by right clicking on alert ID, we could read all packets assembled in the TCP conversation by selecting follow > TCP stream
 
+* Pivoting to kibana by right clicking on the src/dest ip showed the associated alerts and then filtering for the files showed files transmitted during the conversation. 
+
+* Clicking on the conversation id displayed the capME! view of the stolen fle content.
+
+**The attacker had been reading user and password data which surely have him root privileges
+  to seize the file and deny others availability**
 
 
 
@@ -26,14 +32,4 @@ Security Onion VM was used for this activity
 
 
 
-
-
-
-
-
-
-
-
-
-
-It's advised that users should change their passwords and comply with the security policies in their production environment.
+**It's advised that users change their passwords and comply with the security policies especially as it may be in a production environment.**
