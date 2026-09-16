@@ -21,7 +21,7 @@ Security Onion VM was used for this activity
 * Clicking on the conversation id displayed the capME! view of the stolen fle content.
 
 **The attacker had been reading user and password data which surely gave him root privileges
-  to seize the file and deny others availability**
+  to seize the file and deny eligible users availability**
 
 
 **5 tuple usage**
