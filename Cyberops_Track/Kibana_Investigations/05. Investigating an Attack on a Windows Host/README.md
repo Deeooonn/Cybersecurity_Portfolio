@@ -14,3 +14,7 @@ A windows host alert was investigated using Kibana and the attack was investigat
 
 * Hash was looked up on talosintelligence.com/talos_file_reputation
 
+* Talos reputation report and aliases
+
+* 
+
