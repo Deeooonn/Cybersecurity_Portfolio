@@ -10,4 +10,7 @@ A windows host alert was investigated using Kibana and the attack was investigat
 
 * The second alert's transcript viewed in capME! showed a GET request to an executable with the hash shown below, just at the beginning of the text.
 
-* 
+* The exe file from the second alert was exported to storage and a hash for it was generated.
+
+* Hash was looked up on talosintelligence.com/talos_file_reputation
+
