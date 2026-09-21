@@ -18,3 +18,5 @@ A windows host alert was investigated using Kibana and the attack was investigat
 
 * Recmos returned the following
 
+* The second executable in the list of alerts was found and exported and the fingerprint(hash) was generated for it.
+
