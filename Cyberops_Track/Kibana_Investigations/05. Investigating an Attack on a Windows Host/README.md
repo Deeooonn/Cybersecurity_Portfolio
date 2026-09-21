@@ -16,5 +16,5 @@ A windows host alert was investigated using Kibana and the attack was investigat
 
 * Talos reputation report and aliases
 
-* 
+* Recmos returned the following
 
