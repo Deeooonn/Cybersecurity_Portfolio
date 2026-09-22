@@ -24,4 +24,8 @@ A windows host alert was investigated using Kibana and the attack was investigat
 
 * The second file f4.exe had the AMP/CEP detection name below
 
-*
+* All the other three alerts in the GET request for the same f4.exe file in the transcript. Two of the signature IDs are the same but all indicating Trojan activity.
+
+**Part 2: Using Kibana to Investigate Alerts**
+
+* Filtered for the the date and time period of the event
