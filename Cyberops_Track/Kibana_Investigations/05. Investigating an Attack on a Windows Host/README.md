@@ -26,8 +26,25 @@ A windows host alert was investigated using Kibana and the attack was investigat
 
 * All the other three alerts in the GET request for the same f4.exe file in the transcript. Two of the signature IDs are the same but all indicating Trojan activity.
 
+
+
+
 **Part 2: Using Kibana to Investigate Alerts**
 
 * Filtered for the the date and time period of the event
 
 * Filtered out HTTP activity and found 4 downloaded files and four sites 
+
+* Filtered for DNS alerts, tested all domains seen on virustotal for maliciousness
+
+* Filtered for DCE/RPC for information about windows network remote procedures and resources involved and got the following 
+
+* Filtered for Kerberos for information on hostnames and domain names used
+
+* PE for information on portable executables
+
+* SSL and x.509 for information on security certificate and countries that were used
+
+* SMB for more information on the SMB shares on the littletigers network
+
+* Weird for protocol and service anomalies and malformed communications
