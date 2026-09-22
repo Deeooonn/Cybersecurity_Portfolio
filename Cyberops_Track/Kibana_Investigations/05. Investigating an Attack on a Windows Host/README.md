@@ -29,3 +29,5 @@ A windows host alert was investigated using Kibana and the attack was investigat
 **Part 2: Using Kibana to Investigate Alerts**
 
 * Filtered for the the date and time period of the event
+
+* Filtered out HTTP activity and found 4 downloaded files and four sites 
