@@ -37,4 +37,4 @@ The second activity used Kibana to investigate an a DNS exfiltration incident...
 
 
 
-DNS was used to exfiltrate data about a recent data breach in this case and he threat actor(an insider) passed this data to a server outside the organisation most likely for money. This technique was used because DNS resolution is almost always needed for resolution of domains.
+DNS was used to exfiltrate data about a recent data breach in this case and the threat actor(an insider) passed this data to a server outside the organisation most likely for money. This technique was used because DNS resolution is almost always needed for resolution of domains.
