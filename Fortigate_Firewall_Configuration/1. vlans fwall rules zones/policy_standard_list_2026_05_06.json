@@ -1,0 +1,44 @@
+[
+  {
+    "Name": "VLAN10-to-DMZ",
+    "From": "LAN (port2) vlan10 (vlan10)",
+    "To": "DMZ (port3)",
+    "Source": "all",
+    "Destination": "all",
+    "Schedule": "always",
+    "Service": "ALL",
+    "Action": "ACCEPT",
+    "NAT": "Enabled",
+    "Security Profiles": "no-inspection",
+    "Log": "UTM",
+    "Bytes": "672 B"
+  },
+  {
+    "Name": "DMZ-to-VLAN20",
+    "From": "DMZ (port3)",
+    "To": "vlan20 (vlan20)",
+    "Source": "all",
+    "Destination": "all",
+    "Schedule": "always",
+    "Service": "ALL",
+    "Action": "ACCEPT",
+    "NAT": "Enabled",
+    "Security Profiles": "no-inspection",
+    "Log": "UTM",
+    "Bytes": "0 B"
+  },
+  {
+    "Name": "Implicit Deny",
+    "From": "any",
+    "To": "any",
+    "Source": "all",
+    "Destination": "all",
+    "Schedule": "always",
+    "Service": "ALL",
+    "Action": "DENY",
+    "NAT": "",
+    "Security Profiles": "",
+    "Log": "Disabled",
+    "Bytes": "18.92 kB"
+  }
+]

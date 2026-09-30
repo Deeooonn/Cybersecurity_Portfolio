@@ -1,0 +1,4 @@
+Name,From,To,Source,Destination,Schedule,Service,Action,NAT,Security Profiles,Log,Bytes
+VLAN10-to-DMZ,LAN (port2) vlan10 (vlan10),DMZ (port3),all,all,always,ALL,ACCEPT,Enabled,no-inspection,UTM,672 B
+DMZ-to-VLAN20,DMZ (port3),vlan20 (vlan20),all,all,always,ALL,ACCEPT,Enabled,no-inspection,UTM,0 B
+Implicit Deny,any,any,all,all,always,ALL,DENY,,,Disabled,18.92 kB
