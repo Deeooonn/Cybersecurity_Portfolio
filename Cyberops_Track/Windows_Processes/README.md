@@ -1,1 +1,0 @@
-This describes usage of TCP/UDP Endpoint Viewer to identify any running or user-started process.

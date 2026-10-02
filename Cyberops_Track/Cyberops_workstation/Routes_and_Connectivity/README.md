@@ -1,1 +1,0 @@
-used traceroute to trace the path to a server and verified connectivity using ping

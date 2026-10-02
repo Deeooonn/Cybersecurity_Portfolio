@@ -1,1 +1,0 @@
-Displayed all mounted filesystems, mounted and unmounted filesystems, modified file and directory permissions and explored symbolic links

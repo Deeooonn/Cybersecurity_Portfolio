@@ -1,1 +1,0 @@
-task manager utilisation, Apps, background processes and windows processes.

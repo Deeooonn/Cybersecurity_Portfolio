@@ -1,1 +1,0 @@
-This focuses on servers, process running on them and the hierarchy, network servers running and the use of telnet to test TCP services

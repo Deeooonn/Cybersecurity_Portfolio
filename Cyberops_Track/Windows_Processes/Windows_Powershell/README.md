@@ -1,1 +1,0 @@
-In this activity, the powershell console was accessed and command prompt and powershell commands were explored. cmdlets were also explored, netstat command was used and the recycle bin was emptied using the powershell
