@@ -1,0 +1,26 @@
+[
+  {
+    "Name": "LAN-to-WAN",
+    "Source": "all",
+    "Destination": "all",
+    "Schedule": "always",
+    "Service": "ALL",
+    "Action": "ACCEPT",
+    "NAT": "Enabled",
+    "Security Profiles": "no-inspection",
+    "Log": "All",
+    "Bytes": "0 B"
+  },
+  {
+    "Name": "Implicit Deny",
+    "Source": "all",
+    "Destination": "all",
+    "Schedule": "always",
+    "Service": "ALL",
+    "Action": "DENY",
+    "NAT": "",
+    "Security Profiles": "",
+    "Log": "Disabled",
+    "Bytes": "0 B"
+  }
+]
